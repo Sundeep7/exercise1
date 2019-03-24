@@ -1,0 +1,10 @@
+:host /deep/{
+    // .mat-tab-link{
+
+    // }
+    .mat-tab-label, .mat-tab-label-active{
+        min-width: 0;
+        padding: 5px;
+        margin: 5px;
+       }
+}
