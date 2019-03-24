@@ -5,7 +5,9 @@ Features of Exercise1 app:
 1. Global and modular initialization and structuring of SCSS.
 2. Creation of modular app: focusing breaking of components.
 3. Placeholders propotions are used in whole app in place of actual images.
-4. Additional: Lazy Loaded feature - modular app based implementation.
+4. Hot loading.
+5. Additional: Lazy Loaded feature - modular app based implementation. Angular with webpack is also implemented for chunk optimization, teplating, hot loading etc.
+
 
 Note: Exact test content is not used, each component is represented in build and used text that makes sense for each of those components.
 
