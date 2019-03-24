@@ -1,27 +1,42 @@
 # Exercise1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+Features of Exercise1 app:
 
-## Development server
+1. Global and modular initialization and structuring of SCSS.
+2. Creation of modular app: focusing breaking of components.
+3. Placeholders propotions are used in whole app in place of actual images.
+4. Additional: Lazy Loaded feature - modular app based implementation.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Note: Exact test content is not used, each component is represented in build and used text that makes sense for each of those components.
 
-## Code scaffolding
+It works in a responsive manner.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The right hand column is fixed, whilst the left hand column is fluidic. If the width is too small, the right tiles should come below the left column.
 
-## Build
+The font for body used is Arial.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Every detailed different ui is captured separately. Navigation has only two navs since only one nav is workable.
 
-## Running unit tests
+
+## Setting up Angular application
+
+https://medium.com/@sundeepkumar.me/getting-started-with-angular2-in-10-minutes-1f38026d2325
+
+### Run Client
+
+Run `ng serve`. Navigate to `http://localhost:4200/`.
+
+
+### Build Client
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+### Running unit tests in Client
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+### Running end-to-end tests in Client
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

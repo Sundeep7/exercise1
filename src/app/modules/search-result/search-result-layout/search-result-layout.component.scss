@@ -1,10 +1,46 @@
+.app-container{
+    padding-left: 15px;
+    padding-right: 15px; 
+    main, search-result-files{
+        display: block;
+    }
+    main{
+        padding: 15px 0;
+    }
+    search-result-files{
+        position: fixed;
+        right: 15px;
+        top: 126px;
+        border-left: 1px solid #ccc;
+        height: calc(100% - 140px);
+        width: 300px;
+        padding: 0 15px;
+    }
+    .page-container{
+        width: calc(100% - 346px);
+    }
+    
+}
 :host /deep/{
-    // .mat-tab-link{
-
-    // }
     .mat-tab-label, .mat-tab-label-active{
         min-width: 0;
-        padding: 5px;
-        margin: 5px;
+        padding: 8px;
+        margin: 0;
        }
 }
+
+@media only screen and (max-width: 991px) {
+    .app-container{
+        .page-container{
+            width: 100%;
+        }
+        search-result-files{
+            position: relative;
+            width: 100%;
+            height: auto;
+            border-left: none;
+            top: 0;
+        }
+    }
+    
+  }

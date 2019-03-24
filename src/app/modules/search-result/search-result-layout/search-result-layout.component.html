@@ -1,4 +1,4 @@
-<main class="app-container">
+<div class="app-container">
   <h2>Search for: <span>"Test"</span></h2>
     <nav mat-tab-nav-bar>
         <a mat-tab-link
@@ -9,7 +9,14 @@
           {{link.label}}
         </a>
       </nav>
-      <router-outlet></router-outlet>
-</main>
+      <main>          
+          <div class="page-container">
+              <router-outlet></router-outlet>
+          </div>
+          <search-result-files></search-result-files>
+          
+      </main>
+      
+    </div>
 
 

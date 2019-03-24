@@ -6,9 +6,21 @@ body { margin: 0; font-family: Arial;}
 h1,h2,h3,h4,h5{
     color: rgba(0, 0, 0, 0.87);
     opacity: 0.6;
-    font-weight: 500;
+    font-weight: 600;
+    margin: 20px 0 15px;
 }
-.app-container{
-    padding-left: 15px;
-    padding-right: 15px; 
+div,section,aside{
+    display: block;
 }
+p{
+    margin: 0 0 10px;
+}
+a{
+    color: rgba(0, 181, 204, 1);
+    text-decoration: none;
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+

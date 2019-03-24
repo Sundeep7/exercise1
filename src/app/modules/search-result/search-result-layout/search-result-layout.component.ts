@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-search-result-layout',
+  selector: 'search-result-layout',
   templateUrl: './search-result-layout.component.html',
   styleUrls: ['./search-result-layout.component.scss']
 })

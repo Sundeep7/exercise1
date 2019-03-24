@@ -1,0 +1,48 @@
+.file-container{
+    h4{
+        border-bottom: 1px solid #ccc;
+        margin: 0;
+        padding: 0 0 10px;
+        
+    }
+    .block-container{
+        &.next{
+            margin-top: 25px;
+        }
+        .block{
+            margin: 15px 0;            
+            color: #aaa;
+            &:after{
+                clear: both;
+                display: block;
+                content: " ";
+            }
+            
+            div{
+               width: 50px;
+               display: inline-block;
+               float: left;
+               img{
+                   width: 100%;
+                   height: 100%;
+                   &.circle{
+                       border: 50%;
+                   }
+               }
+            }
+            article{
+                width: calc(100% - 65px);
+                display: inline-block;
+                float: right;
+                h5{
+                    font-size: 16px;
+                    margin: 0 0 10px;
+                }
+            }
+        }
+        .all-link{
+            padding-top: 10px;
+            display: inline-block;
+        }
+    }
+}
